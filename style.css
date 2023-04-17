@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section header{
+  position: absolute;
+  top:0;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+section header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+section header ul li a{
+  color:#111;
+  text-decoration: none;
+  font-size: 13px;
+}
+section header ul li button{
+  background-color: blue;
+  outline: none;
+  border: none;
+  padding: 8px 14px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+section .main{
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .main .searchbox{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.search{
+  width: 100%;
+  padding: 13px;
+  padding-left: 60px;
+  padding-right: 30px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+  
+  
+  
+
+.icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 14px 20px;
+  justify-content: space-between;
+}
+.button{
+  margin-top: 20px;
+}
+.button button{
+  margin:0 5px;
+  padding: 12px 20px;
+  color: #555;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px solid trnssparent;
+  outline: none;
+}
+.button button:hober{
+  border-radius: 1px solid green;
+}
+.lang{
+  margin-top: 20px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:grey;
+  
+  
+}
+.footer .row{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid wheat;
+}
+.footer .row ul{
+  display: flex;
+}
+.footer .row ul li{
+  list-style: none;
+  margin: 11px;
+}
+.footer .row ul li a{
+  text-decoration: none;
+  font-size: 14px;
+color: white;
+}
